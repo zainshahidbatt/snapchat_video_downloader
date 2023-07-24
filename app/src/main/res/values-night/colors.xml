@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+    <color name="grey_level_1">#646464</color>
+    <color name="back_ground">#1f1f1f</color>
+    <color name="text_color">#83868b</color>
+    <color name="icon_color">#83868b</color>
+    <color name="card_color">#3C3E42</color>
+    <color name="btn_color">#ffd33f</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#f2f2f2</color>
+
+    <color name="ad_color">#393939</color>
+</resources>

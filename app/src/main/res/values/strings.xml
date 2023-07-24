@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Snapcha Downloader</string>
+
+    <!--api links-->
+    <string name="download_started">Download Started</string>
+    <string name="enter_url">Enter Url</string>
+    <string name="enter_valid_url">Enter Valid Url</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="downloading">Downloading…</string>
+    <string name="processing">Processing…</string>
+    <string name="complete">Complete</string>
+
+    <!--api links-->
+    <string name="facebook_api_base_url">https://downloader-api.sikderithub.com/link.php</string>
+    <string name="insta_api_base_url">https://downloader-api.sikderithub.com/instagram.php</string>
+    <string name="snapchat_api_base_url">https://downloader-api.sikderithub.com/snap.php</string>
+    <string name="likee_api_base_url">https://downloader-api.sikderithub.com/instagram.php</string>
+    <string name="moz_api_base_url">https://downloader-api.sikderithub.com/instagram.php</string>
+
+
+    <string name="top_banner_api_base_url">https://sdownloader.sikderithub.com</string>
+    <string name="force_update_api_base_url">https://sdownloader.sikderithub.com</string>
+    <string name="download_api_base_url">https://downloader-api.sikderithub.com</string>
+
+
+    <string name="facebook_app_id">1023640758601249</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">0ec429661843bb7356004a392a5c31e8</string>
+
+    <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+    <string name="admob_app_id">ca-app-pub-8326396827024206~7836143249</string>
+    <!-- Sample AdMob native ads ID: ca-app-pub-3940256099942544/2247696110 -->
+    <string name="admob_native_ad_id">code ca-app-pub-8326396827024206/3490785696</string>
+
+
+    <!-- Todo: Have to change this while  publishing-->
+
+    <!--Notice dialog api and app name-->
+    <string name="base_url">https://sikderithub.com/dialog.php</string>
+    <string name="app_name_web">VG</string>
+
+    <string name="get_started">Get Started</string>
+    <string name="easy_to_use">Easy to use</string>
+    <string name="insta_download">Insta Download</string>
+
+    <string name="instagram_link">Instagram Link</string>
+    <string name="paste_link">Paste Link</string>
+    <string name="download">Download</string>
+    <string name="permission_title">Oops! You\'ve denied the permission</string>
+    <string name="write_permission_request">I need storage permission, to save the media file to your storage.\nWithout the permission I cannot save your file.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_app">Share this App</string>
+    <string name="share_message">Hey! I\'ve found this awesome app\nIt helps me to download Instagram photos directly to my device\nCheck it out here 👉 </string>
+    <string name="select_an_app">Select an app to share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="snapchat_downloader">Snapchat Downloader</string>
+    <string name="powered_by_blue_lock_solution">powered by blue lock solution</string>
+
+
+</resources>

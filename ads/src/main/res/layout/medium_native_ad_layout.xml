@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/ad_color"
+        app:cardElevation="0dp">
+
+        <com.google.android.gms.ads.nativead.NativeAdView
+            android:id="@+id/nativeAdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ad_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ad_color">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/ad_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Density" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@id/tvSubTitle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/ad_icon"
+                    app:layout_constraintTop_toTopOf="@id/ad_icon"
+                    app:layout_constraintVertical_chainStyle="packed" />
+
+                <TextView
+                    android:id="@+id/tvAdText"
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/bg_ad_text"
+                    android:fontFamily="@font/poppins_medium"
+                    android:paddingStart="4dp"
+                    android:paddingTop="1dp"
+                    android:text="Ad"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="@id/tvSubTitle"
+                    app:layout_constraintStart_toEndOf="@id/ad_icon"
+                    app:layout_constraintTop_toTopOf="@id/tvSubTitle" />
+
+                <TextView
+                    android:id="@+id/tvSubTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Install App"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@id/ad_icon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvAdText"
+                    app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+                <com.google.android.gms.ads.nativead.MediaView
+                    android:id="@+id/mediaView"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/ad_color"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/btnCallToAction"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ad_icon" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCallToAction"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_btn_ad"
+                    android:fontFamily="@font/gilroy_bold"
+                    android:paddingVertical="0dp"
+                    android:text="Apply"
+                    android:textAllCaps="true"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/native_ad_btn_text_size"
+                    app:backgroundTint="@null"
+                    app:cornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:strokeColor="@color/primary_blue"
+                    app:strokeWidth="2dp"
+                    tools:text="Open" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.gms.ads.nativead.NativeAdView>
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

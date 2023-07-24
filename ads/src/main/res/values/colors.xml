@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#282828</color>
+    <color name="gray_btn">#BFBFBF</color>
+
+    <color name="ad_color">#393939</color>
+
+    <color name="black_50opaque">#80000000</color>
+    <color name="black_70opaque">#70000000</color>
+    <color name="white_50opaque">#80FFFFFF</color>
+    <color name="white_80opaque">#CDFFFFFF</color>
+    <color name="white_60opaque">#99FFFFFF</color>
+
+    <color name="grey_level_1">#646464</color>
+    <color name="grey_level_2">#4E4E4E</color>
+    <color name="grey_level_3">#393939</color>
+    <color name="grey_level_4">#282828</color>
+    <color name="grey_level_4_5">#232323</color>
+    <color name="grey_level_5">#1E1E1E</color>
+
+
+    <color name="grey_level_2_50opaque">#804E4E4E</color>
+    <color name="grey_level_4_50opaque">#80282828</color>
+    <color name="grey_level_4_70opaque">#B3282828</color>
+    <color name="grey_level_5_80opaque">#CD1E1E1E</color>
+
+
+    <color name="blue_gradient_start">#0091D7</color>
+    <color name="blue_gradient_end">#1FB6FF</color>
+
+    <color name="purple_gradient_start">#EE2CDB</color>
+    <color name="purple_gradient_end">#2DB3FF</color>
+
+    <color name="primary_text">#F0F0F0</color>
+    <color name="secondary_text">#C4C4C4</color>
+
+    <color name="rating_yellow">#FFC02E</color>
+
+    <color name="trial_info_bar">#FFC009</color>
+    <color name="expired_info_bar">#8C1D18</color>
+
+    <color name="primary_yellow">#FFC009</color>
+    <color name="bluesh_gray">#80D0FF</color>
+
+    <color name="background">#1E1E1E</color>
+    <color name="surface">#000000</color>
+    <color name="surface_variant">#3A3A3A</color>
+    <color name="surface_variant_2">#646464</color>
+    <color name="primary_blue">#80D0FF</color>
+    <color name="dark_blue">#14A9F0</color>
+
+
+    <color name="primary_container">#004C6A</color>
+    <color name="primary_tex">#FFFFFF</color>
+    <color name="white_variant">#FAFAFA</color>
+    <color name="white_variant_2">#F0F0F0</color>
+    <color name="primary_text_variant">#C4C4C4</color>
+    <color name="yellow">#FFC009</color>
+
+
+
+</resources>

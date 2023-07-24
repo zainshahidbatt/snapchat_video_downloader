@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143529903425",
+    "project_id": "snapchat-downloader-66419",
+    "storage_bucket": "snapchat-downloader-66419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143529903425:android:f6b0ce49e5fcc1fb3ecdc0",
+        "android_client_info": {
+          "package_name": "com.bluelock.snapchatdownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143529903425-o9bbkudd2l2prkn91o1hh4akd4pbjkhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFiVllpj5tMYGyZwBarNdicu4VxpjF1oY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143529903425-o9bbkudd2l2prkn91o1hh4akd4pbjkhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

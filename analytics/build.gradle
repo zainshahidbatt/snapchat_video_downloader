@@ -1,0 +1,84 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id "androidx.navigation.safeargs.kotlin"
+    id 'kotlin-parcelize'
+}
+
+android {
+    namespace 'com.bluelock.analytics'
+    compileSdk 33
+
+    defaultConfig {
+        minSdk 24
+        targetSdk 33
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        dataBinding true
+    }
+}
+
+dependencies {
+
+    implementation "androidx.core:core-ktx:${rootProject.ext.coreKtxVersion}"
+    implementation "androidx.appcompat:appcompat:${rootProject.ext.appCompatVersion}"
+    implementation "com.google.android.material:material:${rootProject.ext.materialVersion}"
+    implementation "androidx.constraintlayout:constraintlayout:${rootProject.ext.constraintLayoutVersion}"
+    implementation "androidx.cardview:cardview:${rootProject.ext.cardViewVersion}"
+
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:${rootProject.ext.lifecycleVersion}"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${rootProject.ext.lifecycleVersion}"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${rootProject.ext.coroutineVersion}"
+
+    implementation "com.google.dagger:hilt-android:2.45"
+    kapt "com.google.dagger:hilt-android-compiler:2.45"
+
+    implementation "androidx.navigation:navigation-fragment-ktx:${rootProject.ext.navigationVersion}"
+    implementation "androidx.navigation:navigation-ui-ktx:${rootProject.ext.navigationVersion}"
+
+    implementation "androidx.datastore:datastore:${rootProject.ext.dataStoreVersion}"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:${rootProject.ext.kotlinSerializationVersion}"
+
+
+    implementation "com.jakewharton.timber:timber:${rootProject.ext.timberVersion}"
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:${rootProject.ext.swipeRefreshLayoutVersion}"
+
+
+    api platform("com.google.firebase:firebase-bom:${rootProject.ext.firebaseBomVersion}")
+    api 'com.google.firebase:firebase-analytics-ktx'
+    api 'com.google.firebase:firebase-config-ktx'
+    api 'com.google.firebase:firebase-crashlytics'
+    api 'com.google.firebase:firebase-messaging-ktx'
+
+
+    implementation "com.github.ome450901:SimpleRatingBar:${rootProject.ext.ratingVersion}"
+
+    api "com.amplitude:android-sdk:$amplitude_analytics_version"
+    api "com.appsflyer:af-android-sdk:$appsflyer_analytics_version"
+}

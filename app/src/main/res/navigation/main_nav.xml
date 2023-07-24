@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.bluelock.snapchatdownloader.ui.presentation.home.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_downloadedFragment"
+            app:destination="@id/downloadedFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/downloadedFragment"
+        android:name="com.bluelock.snapchatdownloader.ui.presentation.download.DownloadedFragment"
+        android:label="fragment_downloaded"
+        tools:layout="@layout/fragment_downloaded" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.bluelock.snapchatdownloader.ui.presentation.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

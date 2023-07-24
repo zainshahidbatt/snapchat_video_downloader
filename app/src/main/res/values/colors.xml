@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="back_ground">#f3f3f3</color>
+    <color name="text_color">#0f1011</color>
+    <color name="icon_color">#0f1011</color>
+    <color name="card_color">#FFF</color>
+    <color name="btn_color">#FAC53B</color>
+    <color name="sun_yellow_qr">#ffd622</color>
+    <color name="grey_level_1">#646464</color>
+
+    <color name="ad_color">#393939</color>
+</resources>

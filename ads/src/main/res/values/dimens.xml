@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="native_ad_radius">12dp</dimen>
+    <dimen name="native_ad_elevation">10dp</dimen>
+    <dimen name="native_ad_media_height">200dp</dimen>
+    <dimen name="native_ad_btn_radius">6dp</dimen>
+    <dimen name="native_ad_btn_height">33dp</dimen>
+    <dimen name="native_ad_btn_width">102dp</dimen>
+    <dimen name="native_ad_btn_text_size">14sp</dimen>
+    <dimen name="native_ad_btn_end_margin">20dp</dimen>
+    <dimen name="native_ad_btn_vertical_margin">12dp</dimen>
+    <dimen name="native_ad_title_start_margin">12dp</dimen>
+    <dimen name="native_ad_title_text_size">14sp</dimen>
+    <dimen name="native_ad_height">344dp</dimen>
+</resources>
